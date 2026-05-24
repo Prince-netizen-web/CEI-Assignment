@@ -7,6 +7,7 @@ This repository contains weekly assignments completed during my CEI Internship a
 ## Repository Structure
 
 Week_1/
+├── Summary.txt
 ├── assignment1.ipynb
 ├── tshirts.csv
 ├── cleaned_tshirts.csv
