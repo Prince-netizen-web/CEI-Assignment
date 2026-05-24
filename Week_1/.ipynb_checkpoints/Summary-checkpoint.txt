@@ -1,0 +1,12 @@
+Data set - "tshirts.csv"
+
+Notebook Summary -->
+1. Library Imported (Pandas)
+2. Dataset Loaded - "tshirts.csv"
+3. Explored dataset using head(), tail(), info(), shape, and columns.
+4. Identified and handled missing values of columns - ("what_customers_said ", "seller_name", "discount", "seller_information", "variations", "videos")
+   by using the fillna and dropna functions
+5. Duplicates checked 
+6. New Column created ["discount_percent"]
+     (Note:- There was no column named quantity, so total_amount can't be created, so another column, discount_percent, containing the percentage of                discount given on goods, is entered. Formula = (discount/initial_price)*100 )
+7. Saved cleaned dataset in "cleaned_tshirts.csv"
