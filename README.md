@@ -1,41 +1,96 @@
 # CEI Internship Assignments
 
-This repository contains weekly assignments completed during my CEI Internship at Celebal Technologies under the Data Engineer learning program.
+This repository contains all weekly assignments and projects completed during my internship at CEI (Celebal Technologies Internship Program).
 
+The repository showcases practical implementation of:
 
+* Python Programming
+* SQL
+* Data Analysis
+* Data Engineering Concepts
+* Machine Learning
+* Data Visualization
+* Real-world Business Problem Solving
 
-## Repository Structure
+---
 
-Week_1/
-├── Summary.txt
-├── assignment1.ipynb
-├── tshirts.csv
-├── cleaned_tshirts.csv
+# Repository Structure
 
+```bash
+CEI-Assignment/
+│
+├── Week_1/
+├── Week_2/
+├── Week_3/
+├── Week_4/
+│
+└── README.md
+```
 
-## Week 1: Data Exploration and Cleaning using Pandas
+Each weekly folder contains:
 
-### Objective
-Learn Python basics and perform basic data exploration and cleaning using Pandas.
+* Source code
+* Jupyter notebooks
+* SQL queries
+* Datasets
+* Screenshots
+* Documentation
 
-### Tasks Performed
+---
 
-- Imported Pandas library
-- Loaded CSV dataset into DataFrame
-- Explored dataset using:
-  - head()
-  - tail()
-  - shape
-  - info()
-  - columns
-- Identified and handled missing values
-- Checked duplicate records
-- Created derived column:
-  - discount_percent = (discount / initial_price) × 100
-- Saved cleaned dataset
+# Weekly Assignments
 
-### Technologies Used
+## Week 1
 
-- Python
-- Pandas
-- Jupyter Notebook
+Introduction to Data Analysis and Python workflow.
+
+## Week 2
+
+Sales Data Analysis using SQL, SQLite, and Jupyter Notebook.
+
+Topics Covered:
+
+* SQL Queries
+* Filtering
+* Aggregation
+* Business Analysis
+* Data Validation
+
+---
+
+# Technologies Used
+
+* Python
+* Pandas
+* SQL
+* SQLite
+* Jupyter Notebook
+* Git & GitHub
+* Matplotlib
+* Seaborn
+
+---
+
+# Objectives of this Repository
+
+* Improve problem-solving skills
+* Gain hands-on industry experience
+* Learn data analysis workflows
+* Practice SQL and Python integration
+* Build professional project portfolio
+
+---
+
+# Author
+
+Prince Badgoti
+
+B.Tech Student | Data Analytics & Development Enthusiast
+
+GitHub: https://github.com/Prince-netizen-web
+
+---
+
+# Internship Program
+
+This work is completed as part of the CEI Internship Program focused on practical learning and industry-oriented project development.
