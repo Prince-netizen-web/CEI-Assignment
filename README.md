@@ -56,6 +56,19 @@ Topics Covered:
 * Business Analysis
 * Data Validation
 
+## Week 3
+
+Topic: Advanced SQL Analysis
+
+Concepts Covered:
+
+* Subqueries
+* Common Table Expressions (CTEs)
+* Window Functions
+* Ranking Functions
+* Customer Sales Analysis
+* Business Intelligence Queries
+
 ---
 
 # Technologies Used
@@ -85,7 +98,7 @@ Topics Covered:
 
 Prince Badgoti
 
-B.Tech Student | Data Analytics & Development Enthusiast
+B.Tech Student | Data Engineer & Development Enthusiast
 
 GitHub: https://github.com/Prince-netizen-web
 
