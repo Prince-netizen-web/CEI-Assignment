@@ -1,109 +1,94 @@
-# CEI Internship Assignments
+# CEI-Assignment
 
-This repository contains all weekly assignments and projects completed during my internship at CEI (Celebal Technologies Internship Program).
+## Overview
 
-The repository showcases practical implementation of:
+This repository contains my weekly assignments completed as part of the **Celebal Technologies CEI Internship Program**. Each week focuses on different concepts in Data Engineering, SQL, Cloud, and Big Data technologies through practical hands-on exercises.
 
-* Python Programming
-* SQL
-* Data Analysis
-* Data Engineering Concepts
-* Machine Learning
-* Data Visualization
-* Real-world Business Problem Solving
+## Repository Structure
 
----
-
-# Repository Structure
-
-```bash
+```text
 CEI-Assignment/
-│
-├── Week_1/
-├── Week_2/
-├── Week_3/
-├── Week_4/
-│
+│── Week_1/
+│── Week_2/
+│── Week_3/
+│── Week_4/
+│── Week_5/
 └── README.md
 ```
 
-Each weekly folder contains:
+## Weekly Assignments
 
-* Source code
-* Jupyter notebooks
-* SQL queries
-* Datasets
-* Screenshots
-* Documentation
+### Week 1 – Python & Pandas
 
----
+* Data loading and exploration
+* Handling missing values
+* Removing duplicates
+* Basic data cleaning
+* Creating derived columns
+* Exporting cleaned datasets
 
-# Weekly Assignments
+### Week 2 – SQL Fundamentals
 
-## Week 1
+* Writing SQL queries
+* Filtering and sorting data
+* Aggregate functions
+* GROUP BY and HAVING clauses
+* Business-oriented data analysis
 
-Introduction to Data Analysis and Python workflow.
+### Week 3 – Advanced SQL
 
-## Week 2
-
-Sales Data Analysis using SQL, SQLite, and Jupyter Notebook.
-
-Topics Covered:
-
-* SQL Queries
-* Filtering
-* Aggregation
-* Business Analysis
-* Data Validation
-
-## Week 3
-
-Topic: Advanced SQL Analysis
-
-Concepts Covered:
-
-* Subqueries
 * Common Table Expressions (CTEs)
+* Subqueries
 * Window Functions
-* Ranking Functions
-* Customer Sales Analysis
-* Business Intelligence Queries
+* Ranking and analytical queries
+* Sales data analysis
 
----
+### Week 4 – Azure Data Factory
 
-# Technologies Used
+* Introduction to ETL and ELT
+* Azure Resource Groups and Storage Accounts
+* Creating data pipelines
+* Data movement and transformation
+* Basic cloud data integration concepts
+
+### Week 5 – Apache Spark
+
+* Introduction to Apache Spark
+* Spark DataFrames
+* Loading CSV data
+* Data cleaning and preprocessing
+* Filtering and transformations
+* Aggregations and `groupBy()` operations
+* Building a simple Spark data processing pipeline
+
+## Technologies Used
 
 * Python
 * Pandas
 * SQL
-* SQLite
+* Microsoft SQL Server
+* Apache Spark (PySpark)
+* Azure Data Factory
 * Jupyter Notebook
 * Git & GitHub
-* Matplotlib
-* Seaborn
 
----
+## Learning Outcomes
 
-# Objectives of this Repository
+Through these assignments, I gained practical experience in:
 
-* Improve problem-solving skills
-* Gain hands-on industry experience
-* Learn data analysis workflows
-* Practice SQL and Python integration
-* Build professional project portfolio
+* Data preprocessing and cleaning
+* SQL querying and analytics
+* Advanced SQL techniques
+* Cloud-based ETL workflows
+* Distributed data processing with Apache Spark
+* Building end-to-end data pipelines
 
----
+## Author
 
-# Author
+**Prince Badgoti**
 
-Prince Badgoti
+B.Tech (Cyber Security) | CEI Intern at Celebal Technologies
 
-B.Tech Student | Data Engineer & Development Enthusiast
+## License
 
-GitHub: https://github.com/Prince-netizen-web
-
----
-
-# Internship Program
-
-This work is completed as part of the CEI Internship Program focused on practical learning and industry-oriented project development.
+This repository is intended for educational and learning purposes as part of the CEI Internship Program.
