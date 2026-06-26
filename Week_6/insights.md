@@ -1,0 +1,7 @@
+- Spark uses lazy evaluation and executes computations only when an action is triggered.
+- The Driver coordinates execution, while Executors process tasks in parallel.
+- Wide transformations such as groupBy and join involve shuffling, which can reduce performance.
+- Parquet is more efficient than CSV because it is columnar, compressed, and stores schema metadata.
+- Handling null values and filtering data early helps reduce unnecessary processing.
+- Building pipelines with DataFrame transformations improves readability and scalability.
+- For large datasets, avoid collect() and prefer show() or write() to prevent excessive driver memory usage.
