@@ -1,96 +1,262 @@
 # CEI-Assignment
 
-This repository contains my weekly assignments completed as part of the **Celebal Technologies CEI Internship**. The assignments focus on Python, SQL, Azure, and Apache Spark concepts used in modern data engineering and analytics workflows.
+## 📌 Overview
 
-## Repository Structure
+This repository contains my weekly assignments completed during the **Celebal Technologies Internship (CEI)**. The assignments cover fundamental to advanced concepts in **Data Engineering**, including Python, SQL, Azure, Apache Spark, and Delta Lake.
 
-```text
+Each week's work includes source code, notebooks, datasets, documentation, and screenshots demonstrating the implementation and results.
+
+---
+
+## 👨‍💻 Intern Details
+
+- **Name:** Prince Badgoti
+- **Internship:** Celebal Technologies Internship (CEI)
+- **Domain:** Data Engineering
+- **Repository:** CEI-Assignment
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- SQL Server
+- Azure Data Factory
+- Apache Spark
+- PySpark
+- Delta Lake
+- Databricks
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+# 📂 Repository Structure
+
+```
 CEI-Assignment/
+│
 ├── Week_1/
+│   ├── notebooks/
+│   ├── data/
+│   ├── output/
+│   ├── screenshots/
+│   └── README.md
+│
 ├── Week_2/
+│   ├── notebooks/
+│   ├── sql/
+│   ├── screenshots/
+│   └── README.md
+│
 ├── Week_3/
+│   ├── notebooks/
+│   ├── sql/
+│   ├── screenshots/
+│   └── README.md
+│
 ├── Week_4/
+│   ├── notebooks/
+│   ├── screenshots/
+│   └── README.md
+│
 ├── Week_5/
+│   ├── notebooks/
+│   ├── data/
+│   ├── output/
+│   ├── screenshots/
+│   └── README.md
+│
 ├── Week_6/
+│   ├── notebooks/
+│   ├── data/
+│   ├── output/
+│   ├── screenshots/
+│   └── README.md
+│
+├── Week_7/
+│   ├── notebooks/
+│   ├── data/
+│   ├── final_output/
+│   ├── screenshots/
+│   └── README.md
+│
+├── .gitignore
 └── README.md
 ```
 
-## Weekly Assignments
+---
 
-### Week 1 – Data Exploration and Cleaning with Pandas
+# 📖 Weekly Assignments
 
-* Loaded CSV datasets into Pandas DataFrames.
-* Explored data using `head()`, `info()`, and `describe()`.
-* Handled missing values and duplicates.
-* Performed basic data cleaning and transformations.
-* Exported the cleaned dataset.
+## ✅ Week 1 – Python & Pandas
 
-### Week 2 – SQL Fundamentals
+### Objectives
 
-* Imported datasets into a SQL database.
-* Wrote queries using `SELECT`, `WHERE`, `ORDER BY`, and `GROUP BY`.
-* Used aggregate functions for business analysis.
-* Generated insights from structured data.
+- Learn Python basics
+- Load CSV files using Pandas
+- Explore datasets
+- Handle missing values
+- Remove duplicates
+- Perform filtering and transformations
+- Export cleaned dataset
 
-### Week 3 – Advanced SQL
+---
 
-* Solved problems using Subqueries and Common Table Expressions (CTEs).
-* Applied Window Functions such as `ROW_NUMBER()` and `RANK()`.
-* Performed analytical queries on sales and customer data.
-* Documented SQL solutions and insights.
+## ✅ Week 2 – SQL Fundamentals
 
-### Week 4 – Azure Data Factory
+### Objectives
 
-* Learned the basics of Azure Data Factory.
-* Created data pipelines for data movement.
-* Explored cloud resources such as Resource Groups and Storage Accounts.
-* Understood ETL and ELT concepts in Azure.
+- Import CSV into SQL Server
+- Execute SQL queries
+- Apply filtering
+- Sorting
+- Group By
+- Aggregate functions
+- Business analysis queries
 
-### Week 5 – Apache Spark Basics
+---
 
-* Created Spark Sessions and worked with Spark DataFrames.
-* Loaded and explored datasets using PySpark.
-* Applied filtering, aggregation, and transformations.
-* Exported processed results for analysis.
+## ✅ Week 3 – Advanced SQL
 
-### Week 6 – Spark Architecture and Optimized Data Processing
+### Objectives
 
-* Studied Spark Architecture (Driver, Cluster Manager, Executors, Tasks).
-* Understood Lazy Evaluation and DAG execution.
-* Read data from CSV files with schema inference.
-* Handled null values and managed data types.
-* Renamed columns and created derived columns.
-* Filtered and transformed DataFrames efficiently.
-* Compared CSV and Parquet storage formats.
-* Built an end-to-end data pipeline:
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window Functions
+- Ranking
+- Analytical SQL Queries
 
-  * Read → Transform → Filter → Write
-* Saved processed data in both CSV and Parquet formats.
-* Followed Spark best practices for scalable data processing.
+---
 
-## Technologies Used
+## ✅ Week 4 – Azure Data Factory
 
-* Python
-* Pandas
-* SQL
-* Microsoft Azure
-* Azure Data Factory
-* Apache Spark (PySpark)
-* Jupyter Notebook
+### Objectives
 
-## Key Learning Outcomes
+- Understand ETL Pipelines
+- Create Azure Resources
+- Build Data Factory Pipeline
+- Copy Data Activity
+- Linked Services
+- Dataset Management
 
-* Data cleaning and preprocessing with Python.
-* Querying and analyzing relational data using SQL.
-* Implementing advanced SQL techniques with CTEs and Window Functions.
-* Building cloud-based data pipelines with Azure Data Factory.
-* Processing large datasets using Apache Spark.
-* Understanding Spark architecture, lazy evaluation, and performance optimization.
-* Working with efficient storage formats such as Parquet.
-* Developing scalable ETL-style data pipelines.
+---
 
-## Author
+## ✅ Week 5 – Apache Spark Basics
 
-**Prince Badgoti**
+### Objectives
 
-This repository serves as a record of my learning journey and hands-on practice during the CEI Internship, showcasing progressively advanced concepts in data engineering and big data processing.
+- Introduction to Spark
+- Spark DataFrames
+- Data Cleaning
+- Filtering
+- Transformations
+- Aggregations
+- Export Results
+
+---
+
+## ✅ Week 6 – Spark Data Processing
+
+### Objectives
+
+- Spark Architecture
+- Lazy Evaluation
+- DAG Execution
+- CSV & Parquet Processing
+- Schema Handling
+- Data Transformations
+- Optimized File Formats
+
+---
+
+## ✅ Week 7 – Delta Lake MERGE
+
+### Objectives
+
+- Incremental Data Processing
+- Delta Lake
+- Data Cleaning
+- MERGE Operation
+- Update Existing Records
+- Insert New Records
+- Data Validation
+
+---
+
+# 📊 Skills Learned
+
+- Python Programming
+- Data Cleaning
+- Data Analysis
+- SQL Query Writing
+- Window Functions
+- Azure Data Factory
+- Apache Spark
+- PySpark
+- Delta Lake
+- Incremental Data Processing
+- Data Validation
+- Git & GitHub
+
+---
+
+# 📸 Deliverables
+
+Each week's assignment includes:
+
+- Source Code
+- Jupyter/Databricks Notebook
+- Sample Datasets
+- Screenshots
+- README Documentation
+
+---
+
+# 🚀 How to Run
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/Prince-netizen-web/CEI-Assignment.git
+```
+
+2. Navigate to the desired week's folder.
+
+3. Install dependencies.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Open the notebook using Jupyter Notebook or Databricks.
+
+5. Execute the notebook step-by-step.
+
+---
+
+# 📈 Learning Outcomes
+
+Through these assignments, I gained hands-on experience in:
+
+- Data Cleaning
+- SQL Analytics
+- Cloud Data Integration
+- Distributed Data Processing
+- Spark Optimization
+- Delta Lake Operations
+- Incremental Data Loading
+- Data Engineering Best Practices
+
+---
+
+# 📄 License
+
+This repository is created for learning purposes as part of the **Celebal Technologies Internship (CEI)**.
+
+---
+
+## ⭐ Acknowledgements
+
+Special thanks to **Celebal Technologies** for providing practical assignments that helped strengthen my Data Engineering skills.
