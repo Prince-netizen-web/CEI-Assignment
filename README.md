@@ -81,7 +81,42 @@ CEI-Assignment/
 │   ├── final_output/
 │   ├── screenshots/
 │   └── README.md
-│
+├──Week_8/
+│  │
+│  ├── data/
+│  │   ├── raw/
+│  │   │   ├── customers.csv
+│  │   │   ├── products.csv
+│  │   │   ├── orders.csv
+│  │   │   └── order_items.csv
+│  │   │
+|  │   └── cleaned/
+│  │       ├── customers_clean.csv
+│  │       ├── products_clean.csv
+│  │       ├── orders_clean.csv
+│  │       └── order_items_clean.csv
+│  │
+│  ├── database/
+│  │   └── ecommerce.db
+│  │
+│  ├── reports/
+│  │   └── issues_report.txt
+│  │
+│  ├── scripts/
+│  │   ├── generate_data.py
+│  │   ├── load_sqlite.py
+│  │   ── report_cli.py
+│  │   
+│  │
+│  ├── sql/
+│  │   ├── schema.sql
+│  │   ├── aggregations.sql
+│  │   ├── window_functions.sql
+│  │   └── cohort_analysis.sql
+│  │
+│  ├── clean_data.ipynb
+│  ├── requirements.txt
+│  └── README.md
 ├── .gitignore
 └── README.md
 ```
@@ -182,6 +217,19 @@ CEI-Assignment/
 - Update Existing Records
 - Insert New Records
 - Data Validation
+
+
+## ✅ Week 8 - E-Commerce Order Analytics System
+
+##  Objectives
+
+- Generate realistic e-commerce datasets using Python
+- Introduce intentional data quality issues
+- Clean and validate data using Pandas
+- Store cleaned data in SQLite
+- Perform business analytics using SQL
+- Build a Python CLI reporting tool
+- Handle edge cases through automated test cases
 
 ---
 
