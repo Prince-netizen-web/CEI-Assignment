@@ -1,0 +1,9 @@
+pandas>=2.2.0
+numpy>=1.26.0
+faker>=37.0.0
+pyspark>=3.5.0
+delta-spark>=3.2.0
+jupyter>=1.1.0
+notebook>=7.2.0
+ipykernel>=6.29.0
+matplotlib>=3.9.0
