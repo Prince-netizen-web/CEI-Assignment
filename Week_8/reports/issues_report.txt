@@ -1,0 +1,3 @@
+Wrong Email formats fixed : 5
+Messy product names : 19
+Invalid order references : 64
